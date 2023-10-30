@@ -12,4 +12,18 @@ body {
     background-color: #c4b8b8;
     color: #000;
   }
+
+  .my-custom-table {
+    border-collapse: collapse;
+  }
+
+  .my-custom-table th,
+  .my-custom-table td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+
+  .my-custom-table th {
+    font-weight: bold;
+  }
   

@@ -45,8 +45,9 @@
       </div>
     </div>
   </nav>
+  <div class="container">
     <button id="boton-modo">Cambiar modo</button>
-    <script src="js/dom.js" type="module"></script>
+    <script src="js/Bttn.js" type="module"></script>
     <h1>Razas de perros</h1>
     <br>
     <h2>Hay muchas razas de perro con distintas divididos en grupos por sus
@@ -55,12 +56,13 @@
         y actividades de tu dia a dia. Si se eligue mal, puede terminar teniendo
         demonio en casa!
     </h2>
+</div>
     <!--TABLA DE GRUPOS-->
-    <br>
-        <h1>
-            <div class="container-lg">
-        <table>
-        <tbody>
+<br>
+    <h1>
+        <div class="container-lg">
+          <table class="my-custom-table">
+           <tbody>
             <tr>
                 <th>Grupos</th>
                 <th>Tipos</th>
@@ -105,26 +107,39 @@
                 <th>Grupo 10</th>
                 <th>Lebreles</th>
             </tr>
-        </tbody>
-    </table>
-    </div>
-</h1>
+           </tbody>
+          </table>
+        </div>
+    </h1>
 <br>
 <!--Caracteristicas de los grupos-->
 <br>
 <!--PASTORES 1-->
+<div class="container">
 <h1 id="Pastores">Pastores y perros boyeros</h1>
+<tbody>
 <p>
+    <tr>
+        <th>
     Se llama perro pastor a cualquier perro que ayuda al hombre en el manejo de rebaños de ovejas, cabras y otros animales de granja.
     A los perros pastores que trabajan con ganado bovino se les conoce como perros boyeros.
+</th>
 <br>
+
     Hay dos tipos de perro pastor, los de guardia que se encargan de proteger los rebaños del ataque de lobos y otros depredadores
     y los que se encargan de guiar y controlar a los rebaños en sus desplazamientos. A estos últimos también se les llama perros de carea.
     Hay una gran variedad en su aspecto externo, pero todos son animales ágiles, inteligentes, con gran capacidad de aprendizaje y con
     facilidad para resolver situaciones imprevistas.
-    <img src="img/BorderCollie.jpg" alt="Pastor">
+    <br>
+    <th>
+    <img src="" alt="" id="BorderCollie">
+</th>
+</tr>
 </p>
+</tbody>
+</div>
 <hr>
+<div class="container">
 <!--SCHNAUZER 2-->
 <h1 id="Schnauzer">Pinscher, Schnauzer y Molosoides</h1>
 <p>
@@ -133,6 +148,7 @@
     <h2>Molosoides</h2>
     Los molosos son un grupo de perros caracterizados por tener una constitución musculosa, fuertes mandíbulas, gran cabeza
     y hocico corto, lo que les hace ser excelentes guardianes y defensores.
+    <br>
     <img src="img/Molosoide.jpg" alt="Molosoide">
     <br>
     <h2>Schnauzer</h2>
@@ -140,6 +156,7 @@
     o de una sola familia y pueden volverse muy territoriales. No siempre se llevan bien con otros perros o animales domésticos,
     por lo que necesitarán una supervisión y sociabilización cuidadosas. Con su ladrido profundo alertan rápidamente a la familia si se acerca
     un extraño a su territorio, ya que son excelentes perros guardianes.
+    <br>
     <img src="img/SchnauzerMin.jpg" alt="Schnauzer">
     <br>
     <h2>Pinscher</h2>
@@ -149,16 +166,21 @@
     <br>
     <img src="img/Pinscher.jpg" alt="Pinscher">
 </p>
+</div>
 <hr>
+<div class="container">
 <!--TERRIERS 3-->
 <h1 id="Terriers">Terriers</h1>
 <p>
     Los terriers perros de tamaño pequeño, pelo áspero o duro y poseedores de un carácter decidido, enérgico e inquieto, muy apropiado para la caza
     de ratas y alimañas, que fue el principal uso para el que fueron seleccionados. Como los terrier varían en medida, desde ejemplares de un par
     de kilos (como el Norwich), hasta ejemplares de más de 20 kilos (como el Airedale), generalmente se clasifican con base en el tamaño o la función.
+    <br>
     <img src="img/Terrier.jpg" alt="Terrier">
 </p>
+</div>
 <hr>
+<div class="container">
 <!--TICKELS 4-->
 <h1 id="Teckels">Teckels</h1>
 <p>
@@ -168,8 +190,10 @@
     <br>
     <img src="img/Teckel.jpg" alt="Teckel">
 </p>
+</div>
 <hr>
 <!--SPITZ 5-->
+<div class="container">
 <h1 id="Spitz">Spitz y perros primitivos</h1>
 <h3>Los perros del Grupo 6 se dividen en 2 sub categorias, Spitz y perros de primitivos; cada uno con ciertas caracteristicas.</h3>
 <p>
@@ -178,6 +202,7 @@
     que los protege de las inclemencias del tiempo, y una segunda capa que está formada por pelo largo, liso y despegado del cuerpo, cabeza con pelo corto
     que recuerda a la del zorro con orejas pequeñas y puntiagudas que reducen la pérdida de calor y el riesgo de congelación y la cola levantada, curvada
     y apoyada en la espalda. Son muy parecidos físicamente a los perros nórdicos.
+    <br>
     <img src="img/spitz.jpg" alt="SPitz">
     <br>
     <h2>Perros primitivos</h2>
@@ -193,8 +218,10 @@
     <br>    
     <img src="img/husky.jpg" alt="Primitivo">
 </p>
+</div>
 <hr>
 <!--SABUESOS 6-->
+<div class="container">
 <h1 id="Sabueso">Sabuesos y perros de rasteo</h1>
 <h3>Los perros del Grupo 6 se dividen en 2 sub categorias, Sabueso y perros de rastreo; cada uno con ciertas caracteristicas.</h3>
 <p>
@@ -202,6 +229,7 @@
     Los sabuesos son diferentes razas de perros domésticos, de olfato muy agudo y por ello muy aptos para la caza; se incluyen en esta denominación diversas
     razas de tamaño mediano o grande, pelaje uniforme y hocico alargado. En sentido amplio, sabueso también designa a policía, detective o persona que se dedica
     a investigar, especialmente el que tiene intuición como para indagar, descubrir, interpretar hechos y seguir pistas.
+    <br>
     <img src="img/Sabuesos.jpg" alt="Sabueso">
     <br>
     <h2>Perros de rastreo</h2>
@@ -210,18 +238,23 @@
     <br>
     <img src="img/Basset.jpg" alt="Cobrador">
 </p>
+</div>
 <hr>
 <!--MUESTRA 7-->
+<div class="container">
 <h1 id="Muestra">Perros de muestra</h1>
 <p>
     El perro de muestra (en inglés pointer; puntero o indicador) es uno de los varios tipos de perro de caza. El nombre hace referencia a que el instinto del perro
     le hace apuntar o mostrar con el hocico la dirección donde se encuentra la pieza de caza, lo que permite al cazador moverse para poder tener la pieza a tiro.
     Los perros de muestra se seleccionan entre aquellos con un buen instinto olfativo, el cual suelen desarrollar a partir de los dos meses de edad. Algunos necesitan
     un entrenamiento para desarrollarlo de forma óptima.
+    <br>
     <img src="img/Pointdog.jpg" alt="Pointdog">
 </p>
+</div>
 <hr>
 <!--COBRADOR 8-->
+<div class="container">
 <h1 id="Cobrador">Perros obrador y perros de agua</h1>
 <h3>Los perros del Grupo 8 se dividen en 2 sub categorias, perros obrador y perros de agua; cada uno con ciertas caracteristicas.</h3>
 <p>
@@ -240,10 +273,12 @@
     a nadar reduciendo la resistencia, al mismo tiempo conservando un pelaje largo alrededor del torso para evitar el choque térmico cuando saltan al agua helada.
     Este clásico recorte se sigue viendo en las exposiciones caninas y algunas razas, como los poodles, por lo que conservan una variación de este recorte.
     <br>
-    <img src="img/Agua.webp" alt="Agua">
+    <img src="" alt="" id="Agua">
 </p>
+</div>
 <hr>
 <!--COMPAÑIA 9-->
+<div class="container">
 <h1 id="Compañia">Perros de compañia</h1>
 <p>
     Un perro de compañía es un perro que no es principalmente un perro de trabajo sino una mascota. La función principal de un perro de compañía no es realizar
@@ -251,8 +286,10 @@
     la depresión, la ansiedad, y ciertas fobias, pero no tienen entrenamiento especial para llevar a cabo tareas que ayudan a personas con discapacidades.
     <img src="img/Compa.jpg" alt="Compañia">
 </p>
+</div>
 <hr>
 <!--COMPAÑIA 10-->
+<div class="container">
 <h1 id="Lebreles">Lebreles</h1>
 <p>
     Los lebreles son un conjunto de razas de perros cuya constitución física les hace estar muy bien dotados para la carrera (carrera de galgos), en la que pueden
@@ -262,6 +299,8 @@
     <br>
     <img src="img/Lebrel.jpg" alt="Lebrel">
 </p>
+</div>
+<script src="./js/main.js" type="module"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

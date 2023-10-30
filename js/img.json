@@ -1,0 +1,17 @@
+{
+    "BorderCollie":"img/BorderCollie.jpg",
+    "Basset": "img/Basset.jpg",
+    "Agua": "img/Agua.webp",
+    "Compa": "img/Compa.jpg",
+    "husky": "img/husky.jpg",
+    "labrador": "img/labrador.webp",
+    "Lebrel": "img/Lebrel.jpg",
+    "Molosoide": "img/Molosoide.jpg",
+    "Pinscher": "img/Pinscher.jpg",
+    "Pointdog": "img/Pointdog.jpg",
+    "Sabueso": "img/Sabueso.jpg",
+    "Schnauzer": "img/Schnauzer.jpg",
+    "spitz": "img/spitz.jpg",
+    "Teckel":"img/Teckel.jpg",
+    "Terrier": "img/Terrier.jpg"
+}
